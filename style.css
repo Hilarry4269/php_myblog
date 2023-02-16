@@ -1,0 +1,121 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1532153955177-f59af40d6472?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG5ld3NwYXBlciUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=1200&q=60);
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  overflow: auto;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+p {
+  color: blue;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  color: rgb(35, 10, 89);
+}
+
+input[type="text"] {
+  padding: 10px;
+  background-color: darkgoldenrod;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+
+button[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: blue;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: purple;
+}
+h2 {
+  color: black;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li div {
+  display: flex;
+}
+
+li a {
+  margin-left: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+li a:hover {
+  color: #4CAF50;
+}
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.date {
+  color: red;
+}
+h1 {
+  color: aqua;
+}
+footer {
+  background-image: url(https://media.istockphoto.com/id/1321288902/photo/black-grey-wooden-plank-wall-texture-background-old-natural-pattern-of-dark-wood-grained.jpg?b=1&s=170667a&w=0&k=20&c=yhXBT7-l23YBvyKGDDGkajz2aMuyxaooJQtyaKnTt_M=);
+  background-size: cover;
+  height: 150px;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
